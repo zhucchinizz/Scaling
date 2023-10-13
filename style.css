@@ -1,0 +1,55 @@
+body{
+    background-color: crimson;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+img {
+    width: auto;
+    height: auto;
+}
+
+
+@media (max-width: 600x){
+    body{
+        background-color: aquamarine;
+    }
+    h1 {
+        font-size: 24px;
+    }
+    p {
+        font-size: 16px;
+    }
+    img {
+        width: auto;
+        height: auto;
+    }
+}
+@media (min-width: 601px) and  (max-width: 1024px){
+    h1{
+        font-size: 32px;
+    }
+    p {
+        font-size: 18px;
+    }
+    img {
+        width: auto;
+        height: auto;
+    }
+}
+@media (min-width: 1025px){
+    body{
+        background-color: chocolate;
+        max-width: 800px;
+        margin: 0 auto;
+    }
+    h1 {
+        font-size: 48px;
+    }
+    p {
+        font-size: 20px;
+    }
+    img {
+        width: auto;
+        height: auto;
+    }
+}
